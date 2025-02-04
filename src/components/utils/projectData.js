@@ -11,35 +11,35 @@ export const highlightedProjects = [
     link: 'https://gallery.renemeier.info/projects/mario/',
     image: 'mariogame.png',
     description:
-      'Unofficial Mario game using kaboom.js (Not compatible to mobile).',
+      'An unofficial Mario game built using kaboom.js. Note: This project is not compatible with mobile devices.',
   },
   {
     name: 'Forkify',
     link: 'https://renemeier-forkify.netlify.app/',
     image: 'forkify.png',
     description:
-      'Find over 10.000 and create your own recipe. Created with vanilla JavaScript.',
+      'Search from over 10,000 recipes or create your own. Built using vanilla JavaScript.',
   },
   {
     name: 'MeiersBook',
     link: 'https://meiersbook.renemeier.info/',
     image: 'meiersbook.png',
     description:
-      'My own blog to post and share photos. This project was made with MERN Stack technologies (stands for MongoExpressReactNodeJs). Still working in progress',
+      'A completed social media platform where users can post, like, and comment. Built with MERN Stack (MongoDB, Express, React, Node.js).',
   },
   {
     name: 'The Wild Oasis',
     link: 'https://the-wild-oasis-rm.vercel.app/',
     image: 'thewildoasis.png',
     description:
-      "A fictional luxurious hotel staff's side website which provides the entire information and management from the hotel. (Ask me to provide access)",
+      'A management platform for a fictional luxurious hotel, providing detailed staff information and operational tools. (Access upon request.)',
   },
   {
     name: 'The Wild Oasis Website',
     link: 'https://the-wild-oasis-website-rm.vercel.app/',
     image: 'thewildoasiswebsite.png',
     description:
-      'A fictional luxurious hotel clientside website. This project was made with Next.JS technology.',
+      'A client-side website for a fictional luxurious hotel. Built using Next.js.',
   },
 ];
 
