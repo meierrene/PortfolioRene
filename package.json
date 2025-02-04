@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://renemeier.info",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

@@ -14,7 +14,9 @@ const Greetings = () => {
         src={'./img/profile-captain.jpg'}
         alt="Portfolio Author"
       />
-      <h2 className="h2-title">I'm René Meier - Web-developer</h2>
+      <h2 className="h2-title">
+        I'm René Meier - Airline captain and Fullstack developer.
+      </h2>
     </div>
   );
 };
