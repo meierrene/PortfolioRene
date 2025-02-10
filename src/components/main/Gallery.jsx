@@ -1,13 +1,13 @@
 import "./Gallery.css";
-import { galleryProjects } from "../../utils/portfolioData";
+import { projectsData } from "../../utils/portfolioData";
 import Project from "./Project";
 
 const Gallery = () => {
   return (
     <div className="gallery-container">
-      <h2 className="h2-title">My simple-apps Gallery</h2>
+      <h2 className="h2-title">{projectsData.galleryTitle}</h2>
       <div className="icons-container gallery">
-        {galleryProjects.map((project) => {
+        {projectsData.galleryProjects.map((project) => {
           return (
             <Project
               name={project.name}

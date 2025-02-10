@@ -3,44 +3,67 @@
   display: flex;
   justify-content: space-between;
   background-color: #0b7285;
-  padding: 0 0.8rem;
+  padding: 0.8rem 1.8rem;
   font-size: 2.4rem;
   font-weight: 700;
   position: fixed;
   z-index: 10;
   top: 0;
 }
+
 .logo {
   height: 3.6rem;
 }
-.menu-icons {
-  padding: 1rem;
+.nav-logo {
   display: flex;
-  gap: 0.4rem;
+  gap: 0.8rem;
   text-decoration: none;
-  transition: all 0.2s;
+  align-items: center;
+  transition: all 0.3s;
   color: #bbb;
   transition: color 0.3s ease-in-out, fill 0.3s ease-in-out;
 }
 
-.menu-icons:hover {
+.nav-logo:hover {
   color: #eee;
 }
 
-.menu-icons svg {
+.nav-logo svg {
   fill: currentColor;
   transition: fill 0.3s ease-in-out;
 }
 
-.menu-icons:hover svg {
+.nav-logo:hover svg {
   fill: #eee;
 }
 
-/******************************************************************************/
-/* BELOW 480px  */
-/******************************************************************************/
-@media (max-width: 30em) {
+.nav-list {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #bbb;
+  transition: all 0.3s;
+}
+
+.nav-item a:hover {
+  color: #eee;
+}
+
+@media (max-width: 991px) {
   .nav-container {
     font-size: 2rem;
+  }
+
+  .nav-item:first-child {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0.8rem;
   }
 }

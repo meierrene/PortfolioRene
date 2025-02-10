@@ -1,11 +1,11 @@
 import "./MyProjects.css";
 import Project from "./Project";
-import { highlightedProjects } from "../../utils/portfolioData";
+import { projectsData } from "../../utils/portfolioData";
 
 const Myprojects = () => {
   return (
     <div className="myprojects-container">
-      <h2 className="h2-title">My highlighted projects</h2>
+      <h2 className="h2-title">{projectsData.highlightedTitle}</h2>
 
       <div
         id="carouselExampleInterval"
@@ -16,7 +16,7 @@ const Myprojects = () => {
           className="myprojects-thumbnail carousel-inner"
           data-bs-interval="10"
         >
-          {highlightedProjects.map((project, i) => {
+          {projectsData.highlightedProjects.map((project, i) => {
             return (
               <div
                 className={`carousel-item ${i === 0 && "active"}`}

@@ -57,7 +57,7 @@ textarea {
 }
 
 .description {
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   margin-bottom: 2.4rem;
   color: var(--greyish-color);
   /* padding: 2.4rem 0; */
@@ -66,7 +66,7 @@ textarea {
 /******************************************************************************/
 /* BELOW 480px  */
 /******************************************************************************/
-@media (max-width: 30em) {
+@media (max-width: 768px) {
   .h1-title {
     font-size: 2.8rem;
   }
@@ -80,6 +80,6 @@ textarea {
   }
 
   .description {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 }

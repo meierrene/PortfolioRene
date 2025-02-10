@@ -17,7 +17,7 @@ function Header() {
       className="navbar navbar-expand-lg navbar-dark nav-container "
       id="home-btn"
     >
-      <a className="menu-icons" href={initUrl}>
+      <a className="nav-logo" href={initUrl} onClick={closeNavbar}>
         <MyIcon className="logo" />
         <span>René Meier</span>
       </a>
@@ -33,15 +33,11 @@ function Header() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ms-auto">
+        <ul className="navbar-nav ms-auto nav-list">
           {sections.map((s) => {
             return (
               <li className="nav-item" key={s.title}>
-                <a
-                  className="menu-icons"
-                  href={initUrl + s.ref}
-                  onClick={closeNavbar}
-                >
+                <a href={initUrl + s.ref} onClick={closeNavbar}>
                   {s.title}
                 </a>
               </li>

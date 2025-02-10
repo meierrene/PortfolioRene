@@ -26,7 +26,7 @@ const Aboutme = () => {
           </div>
         ))}
       </div>
-      <h3 className="icons-heading h3-title ">🌍 Where to find me?</h3>
+      <h3 className="icons-heading h2-title ">🌍 Where to find me?</h3>
       <div className="icons-container">
         {aboutMeData.icons.map((icon, i) => (
           <a key={i} target="_blank" rel="noopener noreferrer" href={icon.href}>

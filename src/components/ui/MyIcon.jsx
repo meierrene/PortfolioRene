@@ -2,9 +2,9 @@ const MyIcon = ({ className }) => {
   return (
     <svg
       className={`${className} "my-icon"`}
-      viewBox="0 0 1570.09 1570.09"
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
+      viewBox="161.55 60.67 1246.99 1448.75"
     >
       <g id="Camada_x0020_1">
         <g id="_2753820610688">
