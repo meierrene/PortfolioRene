@@ -1,5 +1,5 @@
-import './Donation.css';
-import CustomButton from '../UI/CustomButton';
+import "./Donation.css";
+import CustomButton from "../ui/CustomButton";
 
 const Donation = () => {
   return (
@@ -16,7 +16,7 @@ const Donation = () => {
         />
 
         <CustomButton type="submit">
-          Make me a donation!{' '}
+          Make me a donation!{" "}
           <img
             className="paypal-icon"
             src="https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif"
@@ -27,7 +27,7 @@ const Donation = () => {
       </form>
       <img
         className="rocket-icon"
-        src={'./img/rocket.gif'}
+        src={"./img/rocket.gif"}
         alt="rocket pixelart"
       />
     </div>

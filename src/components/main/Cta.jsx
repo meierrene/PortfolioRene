@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { ctaEmailData } from "../../utils/portfolioData";
-import CustomButton from "../UI/CustomButton";
+import CustomButton from "../ui/CustomButton";
 import "./Cta.css";
 
 const Cta = () => {
