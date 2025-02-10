@@ -5,8 +5,10 @@
 }
 
 :root {
-  --bs-body-color: #ccc;
-  --bs-body-font-family: 'Roboto Condensed', sans-serif;
+  --bs-body-font-family: "Roboto Condensed", sans-serif;
+  --greyish-color: #ccc;
+  --bordeaux-color: #a61e4d;
+  --gold-color: #ffa94d;
 }
 
 html {
@@ -19,7 +21,7 @@ html {
 }
 
 hr {
-  margin: 36rem 1.8rem 9.8rem;
+  margin: 12rem 1.8rem 9.8rem;
   border: 0;
   border-top: 0.5px solid;
   z-index: 0;
@@ -32,38 +34,52 @@ textarea {
 
 *:focus {
   outline: none;
-  /* box-shadow: 0 0 0 0.6rem rgba(204, 204, 204, 0.6); */
   box-shadow: 0 0 0 0.6rem rgba(255, 169, 77, 0.6);
 }
 
 .h1-title {
-  font-size: 4.8rem;
-  color: #a61e4d;
+  font-size: 3.6rem;
+  color: var(--bordeaux-color);
 }
 
 .h2-title {
-  text-align: center;
-  margin-bottom: 3.6rem;
   font-size: 3.6rem;
-  padding: 1.8rem;
-  color: #ffa94d;
+  color: var(--gold-color);
+  text-align: center;
+  padding: 3.6rem 0;
 }
 
-/* .sticky .nav-container {
-  position: fixed;
-  z-index: 10;
-  top: 0;
-} */
+.h3-title {
+  font-size: 2.4rem;
+  color: var(--gold-color);
+  text-align: center;
+  padding: 2.4rem 0;
+}
+
+.description {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+  color: var(--greyish-color);
+  /* padding: 2.4rem 0; */
+}
 
 /******************************************************************************/
 /* BELOW 480px  */
 /******************************************************************************/
 @media (max-width: 30em) {
   .h1-title {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
   }
 
   .h2-title {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
+  }
+
+  .h3-title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1.6rem;
   }
 }

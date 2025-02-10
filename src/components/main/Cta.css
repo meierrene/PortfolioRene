@@ -1,17 +1,32 @@
 .cta-form {
+  padding: 4rem 0.8rem;
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-form {
+  width: 100%;
   font-size: 2.4rem;
   display: flex;
   flex-direction: column;
-  padding: 3.6rem;
   gap: 1.8rem;
+  align-items: stretch;
 }
 
 .cta-box {
+  width: 100%;
   background-color: #333;
   color: #ccc;
   border-radius: 4px;
   border-style: none;
-  padding: 1.2rem;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  resize: none;
+  box-sizing: border-box;
 }
 
 .cta-box.subject {

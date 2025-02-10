@@ -1,7 +1,11 @@
-import './CustomButton.css';
+import "./CustomButton.css";
 
-const CustomButton = props => {
-  return <button className="custom-btn">{props.children}</button>;
+const CustomButton = (props) => {
+  return (
+    <div className="custom-btn">
+      <button>{props.children}</button>
+    </div>
+  );
 };
 
 export default CustomButton;

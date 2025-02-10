@@ -1,0 +1,15 @@
+.greetings-container {
+  padding: 0 0.8rem;
+  padding-top: 12rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.hero-image {
+  width: 24rem;
+  height: auto;
+  border-radius: 50%;
+  border: 8px solid #444;
+}

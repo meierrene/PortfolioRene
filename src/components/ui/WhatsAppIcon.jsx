@@ -1,13 +1,9 @@
-import './WhatsAppIcon.css';
-
+import "./WhatsAppIcon.css";
+import { whatsappData } from "../../utils/portfolioData";
 const WhatsAppIcon = () => {
-  const phoneNumber = '5519984308466';
-  const urlMessage =
-    'Hi%20Ren%C3%A9%21%0AI%20found%20you%20in%20your%20portfolio%21';
-
   return (
     <a
-      href={`https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${urlMessage}&type=phone_number&app_absent=0`}
+      href={`https://api.whatsapp.com/send/?phone=${whatsappData.number}&text=${whatsappData.message}&type=phone_number&app_absent=0`}
       rel="noopener noreferrer"
       className="float"
       target="_blank"

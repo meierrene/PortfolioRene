@@ -1,6 +1,6 @@
-import './MyProjects.css';
-import Project from './Project';
-import { highlightedProjects } from '../utils/projectData';
+import "./MyProjects.css";
+import Project from "./Project";
+import { highlightedProjects } from "../../utils/portfolioData";
 
 const Myprojects = () => {
   return (
@@ -19,7 +19,7 @@ const Myprojects = () => {
           {highlightedProjects.map((project, i) => {
             return (
               <div
-                className={`carousel-item ${i === 0 && 'active'}`}
+                className={`carousel-item ${i === 0 && "active"}`}
                 key={project.name}
               >
                 <Project
