@@ -3,7 +3,7 @@ import { ctaEmailData } from "../../utils/portfolioData";
 import CustomButton from "../UI/CustomButton";
 import "./Cta.css";
 
-const CTA = () => {
+const Cta = () => {
   const title = useRef();
   const content = useRef();
 
@@ -46,4 +46,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Cta;
