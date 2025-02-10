@@ -1,9 +1,40 @@
 .footer-container {
   margin-top: 6.4rem;
   text-align: center;
-  padding: 1.8rem 1.2rem;
+  padding: 0 1.8rem 6.4rem;
+  color: #333;
+  font-size: 1.6rem;
 }
 
-.footer-copyright {
-  font-size: 1.6rem;
+.react-icon {
+  padding-left: 0.5rem;
+}
+
+.react-icon img {
+  width: 3.6rem;
+  height: auto;
+  display: inline-block;
+  animation: rotate 10s linear infinite;
+}
+
+.react-icon img:hover {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 0 0.8rem 6.4rem;
+  }
+  .react-icon img {
+    width: 3.2rem;
+  }
 }
