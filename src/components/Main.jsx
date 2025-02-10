@@ -3,7 +3,7 @@ import Aboutme from "./main/Aboutme";
 import Myprojects from "./main/MyProjects";
 import Gallery from "./main/Gallery";
 import Cta from "./main/Cta";
-import WhatsAppIcon from "./UI/WhatsAppIcon";
+import WhatsAppIcon from "./ui/WhatsAppIcon";
 import Donation from "./main/Donation";
 import { sections } from "../utils/portfolioData";
 
