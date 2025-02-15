@@ -4,7 +4,7 @@ import Project from "./Project";
 
 const Gallery = () => {
   return (
-    <div className="gallery-container">
+    <section className="gallery-container">
       <h2 className="h2-title">{projectsData.galleryTitle}</h2>
       <div className="icons-container gallery">
         {projectsData.galleryProjects.map((project) => {
@@ -18,7 +18,7 @@ const Gallery = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

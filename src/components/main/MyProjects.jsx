@@ -4,7 +4,7 @@ import { projectsData } from "../../utils/portfolioData";
 
 const Myprojects = () => {
   return (
-    <div className="myprojects-container">
+    <section className="myprojects-container">
       <h2 className="h2-title">{projectsData.highlightedTitle}</h2>
 
       <div
@@ -57,7 +57,7 @@ const Myprojects = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
